@@ -49,7 +49,7 @@ public class Screen extends JPanel {
                         g2.setColor(Color.BLACK);
                         break;
                     case Grid.DEAD:
-                        g2.setColor(Color.RED);
+                        g2.setColor(Color.LIGHT_GRAY);
                         break;
                 }
                 g2.fill(newCell);
